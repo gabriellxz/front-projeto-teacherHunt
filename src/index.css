@@ -6,5 +6,6 @@ body {
     background-image: url(./assets/background_body.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100dvh;
     /* background-color: #000; */
 }
