@@ -1,0 +1,19 @@
+.box-form {
+    background-color: #0006400B;
+    box-shadow:
+        inset -34.03px 34.03px 34.03px rgba(255, 255, 255, 0.042),
+        inset 34.03px -34.03px 34.03px rgba(165, 165, 165, 0.042);
+}
+
+.button-form {
+    max-width: 349px;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #050541;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
