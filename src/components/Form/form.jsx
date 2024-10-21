@@ -1,9 +1,13 @@
 export default function Form({
     children,
-    className
+    className,
+    onSubmit
 }) {
     return (
-        <form className={className}>
+        <form
+            onSubmit={onSubmit}
+            className={className}
+        >
             {children}
         </form>
     )

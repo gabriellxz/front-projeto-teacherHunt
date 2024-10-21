@@ -3,8 +3,19 @@ import Form from "../../components/Form/form";
 import Title from "../../components/Form/Title/title";
 import Header from "../../components/Header/header";
 import { Link } from "react-router-dom";
+import { api } from "../../api/api";
+
 
 export default function Cadastro() {
+
+    const []
+
+    async function signUpProfessor() {
+        await api.post("/api/professores", data)
+            .then(response => console.log(response))
+            .catch(error => console.log(error))
+    }
+
     return (
         <>
             <Header>
@@ -18,6 +29,7 @@ export default function Cadastro() {
                 <Form
                     title="consultar minhas aulas"
                     className="m-3 sm:max-w-[880px] w-full p-[30px] rounded-[15px] box-form"
+                    onSubmit={signUpProfessor()}
                 >
                     <Title
                         title={"cadastrar dados"}
